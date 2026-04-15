@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: "func-adl-xAOD"
-  version: "2.2.6"
+  version: "2.2.7"
   python_min: "3.9"
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/func_adl_xaod-${{ version }}.tar.gz
-  sha256: a8b217e2e0ae203fd307a807696619ddcfbbfb329f0ca5bd4081df43c36b48e6
+  sha256: 99b00568d080801550f1f0d27d0670a9bc1848ff3f37f76c44f2b66d009537d0
 
 build:
   number: 0
