@@ -35,7 +35,9 @@ tests:
       imports:
         - func_adl_xAOD
       pip_check: true
-      python_version: ${{ python_min }}.*
+      python_version:
+        - ${{ python_min }}.*
+        - "*"
 
 about:
   license: MIT
